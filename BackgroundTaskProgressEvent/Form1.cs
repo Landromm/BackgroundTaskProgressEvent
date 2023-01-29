@@ -149,7 +149,7 @@ namespace BackgroundTaskProgressEvent
                 progress.Report(new ProgressInfo((double)(10), "10"));
 
                 // login and get user object
-                User me = await Pastebin.LoginAsync("Landromm", "Pastebin_21!03@1993#");
+                User me = await Pastebin.LoginAsync("Login", "Password");
                 // user contains information like e-mail, location etc...
                 Console.WriteLine("{0}({1}) lives in {2}", me, me.Email, me.Location);
                 // lists all pastes for this user
